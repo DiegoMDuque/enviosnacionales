@@ -1,0 +1,19 @@
+{
+  "name": "envios-nacionales",
+  "version": "0.1.0",
+  "description": "aplicativo para empresa de envios nacionales",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMDuque/enviosnacionales.git"
+  },
+  "author": "diegomduque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMDuque/enviosnacionales/issues"
+  },
+  "homepage": "https://github.com/DiegoMDuque/enviosnacionales#readme"
+}

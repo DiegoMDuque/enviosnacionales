@@ -1,0 +1,1 @@
+console.log("Señor, date prisa en socorrerme");
