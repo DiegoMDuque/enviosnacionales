@@ -1,0 +1,78 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: #c7c7c7;
+}
+
+main {
+  display: flex;
+  background: white
+}
+
+label {
+  color: #9e9da1;
+}
+
+a {
+  text-decoration: none;
+  color: #9e9da1;
+}
+
+::placeholder {
+  color: black;
+}
+
+.imag-logo-login {
+  height: 70%;
+  width: 70%;
+}
+
+.article-login {
+  background-color: #002863;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.form-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.entry {
+  margin: 5px;
+  padding: 5px;
+  opacity: 30%;
+}
+
+.boton input {
+  background-color: #006f67;
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+  color: white;
+}
+
+/* ************************************************************************************************************
+------------------------------------------------ Header  --------------------------------------
+************************************************************************************************************ */
+
+/* @media (min-width: 480px) {
+  header .seccion-1 {
+    border: brown double;
+    width: 40%;
+    padding: 5px;
+  }
+} */
