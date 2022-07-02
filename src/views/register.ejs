@@ -10,7 +10,7 @@
                     <article class="article-login">
                         <img class="imag-logo-login" src="img/Logo_EDN.png">
 
-                        <form class="form-login" action="/login" method="post">
+                        <form class="form-login" action="/sucess" method="post">
 
                             <div>
                                 <input class="entry" type="text" placeholder="Usuario" name="user">
@@ -20,19 +20,16 @@
                                 <input class="entry" type="password" placeholder="Contraseña" name="password">
                             </div>
 
-                            <p>
-                                <input type="checkbox" name="recordarme"><label
-                                    class="checkbox-inline">Recordarme</label>
-                                <a href="/register">¿Olvidó su contraseña?</a>
-                            </p>
-
-                            <div class="errors">
-                                <ul>
-                                </ul>
+                            <div>
+                                <select class="entry">
+                                    <option value="tesla">Medellín Centro</option>
+                                    <option value="volvo">Itaguí</option>
+                                    <option value="mercedes">Medellín Terminal</option>
+                                </select">
                             </div>
 
-                            <div class="boton">
-                                <input type="submit" value="INGRESAR">
+                            <div class="button">
+                                <input type="submit" value="REGISTRAR">
                             </div>
 
                         </form>

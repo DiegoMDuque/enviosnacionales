@@ -9,11 +9,7 @@ body {
   background-color: #c7c7c7;
 }
 
-main {
-  display: flex;
-  background: white
-}
-
+/* LOGIN */
 label {
   color: #9e9da1;
 }
@@ -48,6 +44,8 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -57,12 +55,92 @@ a {
   opacity: 30%;
 }
 
-.boton input {
+.button input {
   background-color: #006f67;
   border: none;
   border-radius: 10%;
   padding: 10px;
   color: white;
+}
+
+.button input {
+  background-color: #006f67;
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+  color: white;
+}
+
+/* ADMIN */
+p {
+  color: white;
+}
+
+.menu {
+  background-color: #002863;
+  width: 90vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.menu a {
+  font-size: 20px;
+}
+
+.imag-logo-admin {
+  width: 60%;
+  align-content: flex-start;
+}
+
+@media (min-width: 1000px) {
+  .imag-logo-admin {
+    width: 100%;
+  }
+
+  .menu {
+    width: 20vw;
+  }
+}
+
+/* OFFICES */
+
+.section-offices {
+    background-color: #002863;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-offices h1, h2 {
+  color: white;
+  font-weight: 100;
+}
+
+.options-fisrt-offices {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.options-fisrt-offices h2 {
+  padding-right: 50px;  
+}
+
+
+.options-offices {
+  display: flex;
+  align-items: center;
+}
+
+.options-offices a {
+  padding: 10px;
 }
 
 /* ************************************************************************************************************

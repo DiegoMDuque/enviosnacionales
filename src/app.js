@@ -11,8 +11,21 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //Mostrando index EJS...
-app.get('/', function(req, res) {
-    res.render('index');
+app.get('/login', function(req, res) {
+    res.render('login');
+});
+
+app.get('/register', function(req, res) {
+    res.render('register');
+});
+
+
+app.get('/list', function(req, res) {
+    res.render('list');
+});
+
+app.get('/offices', function(req, res) {
+    res.render('offices');
 });
 
 module.exports = app;
