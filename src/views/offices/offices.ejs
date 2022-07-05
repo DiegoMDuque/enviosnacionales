@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+    <body>
+        <%- include('../partials/header') %>
+        <%- include('../partials/menu') %>        
+            <main>
+
+                <section class="section-offices">
+                    <h1>Listado de Sedes</h1>
+                    <div class="button">
+                        <p><a href="offices/add">AGREGAR</a></p>
+                    </div>
+                    <table class="table-offices">
+                        <tr>
+                            <td>Medellín Centro</td>
+                            <td><a href="offices/office/1">Ver</a></td>
+                            <td><a href="offices/edit/1">Editar</a></td>
+                            <td><a href="offices/delete/1">Eliminar</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Itagüí</td>
+                            <td><a href="offices/office/1">Ver</a></td>
+                            <td><a href="offices/edit/1">Editar</a></td>
+                            <td><a href="offices/delete/1">Eliminar</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Medellín Terminal</td>
+                            <td><a href="offices/office/1">Ver</a></td>
+                            <td><a href="offices/edit/1">Editar</a></td>
+                            <td><a href="offices/delete/1">Eliminar</a></td>
+                        </tr>
+                </section>
+
+            </main>
+            <%- include('../partials/footer') %>
+
+    </body>
+
+</html>

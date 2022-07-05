@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+    <body>
+        <%- include('../partials/header') %>
+        <%- include('../partials/menu') %>
+            <main>
+
+                <section class="section-offices">
+                    <h1>Listado de guías</h1>
+                    <div class="button">
+                        <p><a href="guides/add">AGREGAR</a></p>
+                    </div>
+                    <table class="table-offices">
+                        <tr>
+                            <td>Guía 125413221</td>
+                            <td><a href="guides/guide/1">Ver</a></td>
+                            <td><a href="guides/edit/1">Editar</a></td>
+                            <td><a href="guides/delete/1">Eliminar</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Guía 2552212156</td>
+                            <td><a href="guides/guide/1">Ver</a></td>
+                            <td><a href="guides/edit/1">Editar</a></td>
+                            <td><a href="guides/delete/1">Eliminar</a></td>
+                        </tr>
+                </section>
+
+            </main>
+            <%- include('../partials/footer') %>
+    </body>
+
+</html>

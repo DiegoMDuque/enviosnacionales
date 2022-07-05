@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+
+    <body>
+        <%- include('../partials/header') %>
+        <%- include('../partials/menu') %>
+            <main>
+
+                <section>
+                    <article class="article-register">
+                        <form action="/sucess" method="post">
+
+                            <img class="imag-logo-register" src="/img/Logo_EDN.png">
+
+                            <p><span>Nombre(s): </span><span class="answer">Juan Andrés</span></p>
+                            <p><span>Apellido(s): </span><span class="answer"></span>Londoño Pérez</span></p>
+                            <p><span>Tipo de documento: </span><span class="answer"></span> Cédula de Ciudadanía</span>
+                            </p>
+                            <p><span>Número de documento: </span><span class="answer"></span> 705421218</span></p>
+                            <p><span>Nombre de usuario: </span><span class="answer"></span> Juan123</span></p>
+                            <p><span>Sede: </span><span class="answer">Medellín Terminal</span></p>
+
+                            <p><a href="/users">--- Volver ---</a></p>
+
+                            <div class="button">
+                                <input type="submit" value="ELIMINAR">
+                            </div>
+                        </form>
+
+                    </article>
+                </section>
+
+            </main>
+            <%- include('../partials/footer') %>
+    </body>
+
+</html>

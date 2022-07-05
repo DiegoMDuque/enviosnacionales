@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+    <body>
+        <%- include('../partials/header') %>
+        <%- include('../partials/menu') %>
+            <main>
+
+                <section>                  
+                    <article class="article-register">
+                        <img class="imag-logo-register" src="/img/Logo_EDN.png">
+
+                        <form class="form-register" action="/sucess" method="post">
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Nombre" name="name">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Dirección" name="address">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Departamento" name="state">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Ciudad" name="city">
+                            </div>
+                            
+                            <div class="button">
+                                <input type="submit" value="EDITAR">
+                            </div>
+
+                        </form>
+                    </article>
+                </section>
+                
+            </main>
+            <%- include('../partials/footer') %>
+    </body>
+</html>

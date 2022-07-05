@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+    <body>
+        <%- include('../partials/header') %>
+        <%- include('../partials/menu') %>
+            <main>
+
+                <section>                  
+                    <article class="article-register">
+                        <img class="imag-logo-register" src="/img/Logo_EDN.png">
+
+                        <form class="form-register" action="/sucess" method="post">
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Nombre(s)" name="user">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Apellido(s)" name="user">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Tipo de documento" name="user">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="number" placeholder="Número de documento" name="user">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="text" placeholder="Nombre de usuario" name="user">
+                            </div>
+
+                            <div>
+                                <input class="entry" type="password" placeholder="Contraseña" name="password">
+                            </div>
+                            
+                            <div>
+                                <select class="entry">
+                                    <option value="tesla">Medellín Centro</option>
+                                    <option value="volvo">Itaguí</option>
+                                    <option value="mercedes">Medellín Terminal</option>
+                                </select>
+                            </div>
+
+                            <div class="button">
+                                <input type="submit" value="REGISTRAR">
+                            </div>
+
+                        </form>
+                    </article>
+                </section>
+                
+            </main>
+            <%- include('../partials/footer') %>
+    </body>
+</html>

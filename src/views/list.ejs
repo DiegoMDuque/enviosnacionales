@@ -4,24 +4,89 @@
 
     <body>
         <%- include('./partials/header') %>
-
             <main>
-                <section class="menu">
+                <img class="imag-logo-register" src="/img/Logo_EDN.png">
 
-                    <img class="imag-logo-admin" src="img/Logo_EDN.png">
-                    <ul class="menu-list">
-                        <li><a href="/offices">Sedes</a></li>
-                        <li><a href="#">Usuarios</a></li>
-                        <li><a href="#">Facturación</a></li>
-                        <li><a href="#">Guías</a></li>
-                        <li><a href="#">Informes</a></li>
-                        <li><a href="#">Configuraciones</a></li>
-                        <li><a href="#">Seguimiento de envíos</a></li>
+
+                <div class="area"></div>
+                <nav class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="/list">
+                                <i class="fa fa-home fa-2x"></i>
+                                <span class="nav-text">
+                                    Página de Administración
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/users">
+                                <i class="fa fa-users fa-2x"></i>
+                                <span class="nav-text">
+                                    Usuarios
+                                </span>
+                            </a>
+                        </li>
+                        <li class="has-subnav">
+                            <a href="/offices">
+                                <i class="fa fa-bus fa-2x"></i>
+                                <span class="nav-text">
+                                    Sedes
+                                </span>
+                            </a>
+                
+                        </li>
+                        <li class="has-subnav">
+                            <a href="/guides">
+                                <i class="fa fa-list fa-2x"></i>
+                                <span class="nav-text">
+                                    Guías
+                                </span>
+                            </a>
+                
+                        </li>
+                        <li class="has-subnav">
+                            <a href="#">
+                                <i class="fa fa-folder fa-2x"></i>
+                                <span class="nav-text">
+                                    Informes
+                                </span>
+                            </a>
+                
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-cogs fa-2x"></i>
+                                <span class="nav-text">
+                                    Configuraciones
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-paper-plane fa-2x"></i>
+                                <span class="nav-text">
+                                    Seguimiento de envíos
+                                </span>
+                            </a>
+                        </li>
                     </ul>
-                </section>
-            </main>
+                
+                    <ul class="logout">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-power-off fa-2x"></i>
+                                <span class="nav-text">
+                                    Logout
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
+            </main>
             <%- include('./partials/footer') %>
+
     </body>
 
 </html>
